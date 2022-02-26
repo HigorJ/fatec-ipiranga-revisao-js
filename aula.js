@@ -70,13 +70,36 @@
 // const b = a
 // console.log(a == b)
 
+// const v1 = []
 
+// console.log(v1.length)
 
+// v1[0] = 3.4
+// v1[1] = 'a'
+// v1[10] = 2
 
+// console.log(v1.length)
 
+// for(let i = 0; i < v1.length; i++) {
+//     console.log(v1[i])
+// }
 
+// v1.forEach(item => console.log(item))
 
+// const numeros = [1, 2]
+// console.log(numeros.length)
+// numeros[4] = 3
+// console.log(numeros.length)
 
+// const numeros = [1, 2]
+// numeros[0] = 2
+
+// console.log(numeros)
+// const nomes = ['Ana Maria']
+
+const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
+
+console.log(nomes.filter((nome) => nome.startsWith('A')));
 
 
 
